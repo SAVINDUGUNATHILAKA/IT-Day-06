@@ -32,3 +32,4 @@
 console.log(document.documentURI);
 document.write("<h2> Hello, Me! </h2>");
 
+console.log(document.title);
