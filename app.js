@@ -35,4 +35,7 @@ console.log(document.documentURI);
 console.log(document.title);
 
 let heading = document.getElementById("heading");
+
+heading.innerText = "Saveee";
+
 console.log(heading);
