@@ -16,7 +16,10 @@ console.log(customer1);
 let customer2 = {
     name: "John",
     age: 25,
-    address: "New York"
+    address: "New York",
+    salary: 5000
 };
-console.log(customer2);
-
+console.log(customer2.address);
+console.log(customer2.age);
+console.log(customer2.name);
+console.log(customer2.salary);
