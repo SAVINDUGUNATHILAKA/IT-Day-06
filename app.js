@@ -30,6 +30,9 @@
 //Document Object Model (DOM)
 
 console.log(document.documentURI);
-document.write("<h2> Hello, Me! </h2>");
+// document.write("<h2> Hello, Me! </h2>");
 
 console.log(document.title);
+
+let heading = document.getElementById("heading");
+console.log(heading);
