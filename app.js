@@ -39,8 +39,8 @@ let heading = document.getElementById("heading");
 // heading.innerText = "Hello, World!";
 
 console.log(heading);
-
+let number =0;
 function changeHeading(){
-    heading.innerText = "Hello, World!";
+    heading.innerText = "Hello, World!"+number++;
     console.log("Clicked");
 }
