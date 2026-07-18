@@ -36,6 +36,11 @@ console.log(document.title);
 
 let heading = document.getElementById("heading");
 
-heading.innerText = "Saveee";
+// heading.innerText = "Hello, World!";
 
 console.log(heading);
+
+function changeHeading(){
+    heading.innerText = "Hello, World!";
+    console.log("Clicked");
+}
