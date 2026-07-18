@@ -29,18 +29,22 @@
 
 //Document Object Model (DOM)
 
-console.log(document.documentURI);
+//console.log(document.documentURI);
 // document.write("<h2> Hello, Me! </h2>");
 
 console.log(document.title);
 
 let heading = document.getElementById("heading");
-
-// heading.innerText = "Hello, World!";
-
+heading.innerText = "Hello, World!";
 console.log(heading);
+
+
 let number =0;
-function changeHeading(){
-    heading.innerText = "Hello, World!"+number++;
+function increaseValue(){
+    heading.innerText = "Hello, World!"+(++number);
     console.log("Clicked");
+}
+
+function decreaseValue(){
+    heading.innerText = "Hello, World!"+(--number);
 }
