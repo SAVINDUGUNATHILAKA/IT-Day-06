@@ -32,19 +32,27 @@
 //console.log(document.documentURI);
 // document.write("<h2> Hello, Me! </h2>");
 
-console.log(document.title);
+// console.log(document.title);
 
-let heading = document.getElementById("heading");
-heading.innerText = "Hello, World!";
-console.log(heading);
+// let heading = document.getElementById("heading");
+// heading.innerText = "Hello, World!";
+// console.log(heading);
 
 
-let number =0;
-function increaseValue(){
-    heading.innerText = "Hello, World!"+(++number);
-    console.log("Clicked");
-}
+// let number =0;
+// function increaseValue(){
+//     heading.innerText = "Hello, World!"+(++number);
+//     console.log("Clicked");
+// }
 
-function decreaseValue(){
-    heading.innerText = "Hello, World!"+(--number);
+// function decreaseValue(){
+//     heading.innerText = "Hello, World!"+(--number);
+// }
+
+function ChangeHeading(){
+    
+    let txtInput=document.getElementById("inputText");
+    console.log(txtInput.value)
+    let heading=document.getElementById("heading");
+    heading.innerText=txtInput.value;
 }
